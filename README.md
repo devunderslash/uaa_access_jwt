@@ -1,10 +1,10 @@
 # uaa_access_jwt
 contains a script for getting uaa access token in jwt form
 
-##Description: 
+## Description: 
 This script is used to get the access token from UAA server
 
-##Usage: 
+## Usage: 
 - Create a virtual environment: python3 -m venv venv
 - Activate Virtual Environment: source venv/bin/activate
 - Install dependencies: pip install -f requirements.txt
@@ -13,7 +13,7 @@ This script is used to get the access token from UAA server
 python get_uaa_access_token.py --url <uaa_url> --client_id <client_id> --client_secret <client_secret> --username <username> --password <password>
 '''
 
-##Example: 
+## Example: 
 '''
 python get_uaa_access_token.py --url https://uaa.system-domain.com --client_id client_id --client_secret client_secret --username username --password password
 '''
